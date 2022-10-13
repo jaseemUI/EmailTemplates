@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case study mail</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <style type="text/css">
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Rubik', sans-serif;
+            background-color: #fff;
+        }
+
+        /* padding */
+        .p-rl-60 {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .p-tb-30 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        /* margin */
+        .mt-30 {
+            margin-top: 30px;
+        }
+
+        table {
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            padding-bottom: 30px;
+        }
+
+        .main {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #2c2c2c;
+        }
+
+        /* content */
+        .content{
+            width: 100%;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        .content p {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        /* card section */
+        .card-section {
+            width: 100%;
+            float: left;
+            border-radius: 10px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 0 1px 7px rgba(0,0,0,0.15); 
+            -webkit-box-shadow: 0 1px 7px rgba(0,0,0,0.15); 
+            -moz-box-shadow: 0 1px 7px rgba(0,0,0,0.15);
+            border: 1px solid #eee;
+        }
+
+        .card-section .img-block {
+            width: 100%;
+            float: left;
+        }
+
+        .card-section .icon-text {
+            width: 100%;
+            float: right;
+            padding: 1.2rem 1.5rem;
+            /* display: none; */
+        }
+
+        .card-section .icon-text h3 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin: 0;
+        }
+        
+        .card-section .btn-outline {
+            padding: 8px 18px;
+            border-radius: 50px;
+            text-align: center;
+            border: 2px solid #FF3314;
+            background: #FFFFFF;
+            color: #FF2C19;
+            font-size: 0.8rem;
+            font-weight: 400;
+            float: left;
+            margin-top: 13px;
+        }
+
+
+        /* cta section */
+        .cta-section {
+            width: 100%;
+            float: left;
+            padding: 2.5rem 1.5rem;
+            border-radius: 10px;
+            background-color: #FFEDED;
+        }
+
+        .cta-section h3 {
+            font-size: 1.3rem;
+            color: #4d4d4d;
+            font-weight: 400;
+            margin-bottom: 30px;
+            max-width: 100%;
+            float: left;
+        }
+
+        .cta-section .btn-outline {
+            padding: 12px 30px;
+            border-radius: 50px;
+            border: 2px solid #FF3314;
+            color: #FF2C19;
+            font-size: 1rem;
+            font-weight: normal;
+            text-align: center;
+            float: left;
+        }
+
+        /* clients */
+        .clients {
+            text-align: center;
+            color: #747474;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .footer {
+            width: 100%;
+            float: left;
+            text-align: center;
+        }
+        .footer .social{
+            width: 100%;
+            float: left;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+        .footer a>img {
+            width: 50px;
+        }
+
+        .footer p {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 20px;
+            color: #9A938A;
+        }
+
+        @media only screen and (min-width: 425px) {
+            .p-rl-60 {
+                padding-right: 60px;
+                padding-left: 60px;
+            }
+            /* card section */
+            .card-section .img-block {
+                width: 45% !important;
+                float: left;
+            }
+            .card-section .icon-text {
+                width: 55% !important;
+            }
+            .card-section .icon-text h3{
+                margin-top: 10% !important;
+            }
+
+            /* cta section */
+            .cta-section .btn-outline {
+                float: right;
+
+            }
+
+            .cta-section h3 {
+                width: calc(100% - 155px) !important;
+                margin-top: 11px !important;
+                margin-bottom: 0 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+            <!-- Header -->
+            <tr>
+                <td>
+                    <table class="p-rl-60 p-tb-30" style="text-align: center;">
+                        <tr>
+                            <td>
+                                <img src="https://www.pickcel.com/assets/mail-img/pickcel-logo.png" style="width: 160px;" alt="pickcel-logo">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- BANNER IMAGE -->
+            <tr>
+                <td>
+                    <img src="https://www.pickcel.com/assets/mail-img/case-study-banner.jpg" alt="">
+                </td>
+            </tr>
+            <!-- TITLE, TEXT & BUTTON -->
+            <tr>
+                <td>
+                    <table class="p-rl-60 p-tb-30">
+                        <tr>
+                            <td class="content">
+                                <h2 style="margin-bottom: 20px;">What do Amazon, Mercedes & Unilever have in common?</h2>
+                                <p style="margin-bottom: 10px;">They all love using Pickcel!</p>
+                                <p>Here are some customer success stories that give us serious bragging rights.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Card SECTION -->
+            <tr>
+                <td>
+                    <table class="p-rl-60 p-tb-30">
+                        <tr class="card-section">
+                            <td class="img-block">
+                                <img src="https://www.pickcel.com/assets/mail-img/amazon.jpg" alt="">
+                            </td>
+                            <td class="icon-text">
+                                <h3>Amazon case study</h3>
+                                <a href="https://www.pickcel.com/case-studies/amazon.html" target="_blank" class="btn-outline">Read More</a>
+                            </td>
+                        </tr>
+                        <tr class="card-section mt-30">
+                            <td class="img-block">
+                                <img src="https://www.pickcel.com/assets/mail-img/mercedes-benz.jpg" alt="">
+                            </td>
+                            <td class="icon-text">
+                                <h3>Mercedes case study</h3>
+                                <a href="https://www.pickcel.com/case-studies/mercedes-benz-corporate-communication.html" class="btn-outline" target="_blank">Read More</a>
+                            </td>
+                        </tr>
+                        <tr class="card-section mt-30">
+                            <td class="img-block">
+                                <img src="https://www.pickcel.com/assets/mail-img/unilever.jpg" alt="appstore">
+                            </td>
+                            <td class="icon-text">
+                                <h3>Unilever case study</h3>
+                                <a href="https://www.pickcel.com/case-studies/hindustan-unilever.html" class="btn-outline" target="_blank">Read More</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- CALL TO ACTION -->
+            <tr>
+                <td>
+                    <table class="p-rl-60 p-tb-30">
+                        <tr>
+                            <td class="cta-section">
+                                <h3>Want customized solutions?</h3>
+                                <a href="https://www.pickcel.com/company/contact.html" class="btn-outline">Let's Talk</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- CLIENT SECTION -->
+            <tr>
+                <td>
+                    <table class="p-tb-30 p-rl-60">
+                        <tr>
+                            <td class="clients">
+                                <h3 style="margin-bottom: 30px;">Trusted by 1500+ clients globally</h3>
+                                <img src="https://www.pickcel.com/assets/mail-img/client.png" alt="clients">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- FOOTER SECTION -->
+            <tr>
+                <td>
+                    <table class="p-tb-30 p-rl-60">
+                        <tr class="footer">
+                            <td >
+                                <ul class="social">
+                                    <a href="https://www.linkedin.com/company/pickcel/" target="_blank" rel="noopener noreferrer"><img src="https://www.pickcel.com/assets/mail-img/linkedin.png" alt=""></a>
+                                    <a href="https://www.facebook.com/PickcelDigitalSignage" target="_blank" rel="noopener noreferrer"><img src="https://www.pickcel.com/assets/mail-img/facebook.png" alt=""></a>
+                                    <a href="https://www.youtube.com/channel/UCymlUh_ErgjloeyCnzH711g?sub_confirmation=1" target="_blank" rel="noopener noreferrer"><img src="https://www.pickcel.com/assets/mail-img/youtube.png" alt=""></a>
+                                    <a href="https://twitter.com/PickcelSignage" target="_blank" rel="noopener noreferrer"><img src="https://www.pickcel.com/assets/mail-img/twitter.png" alt=""></a>
+                                    <a href="https://www.instagram.com/pickceldigitalsignage/" target="_blank" rel="noopener noreferrer"><img src="https://www.pickcel.com/assets/mail-img/instagram.png" alt=""></a>
+                                </ul>
+                                <p>Copyright © 2022 LaneSquare Technology Pvt. Ltd. | All Rights Reserved</p>
+                                <a href="$[LI:SUB_PREF]$" style="margin-top:10px;display:inline-block;color: #9A938A;text-decoration: underline;font-size: 1rem;font-weight: 400;">Update Preference</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table> <!-- End Main Class -->
+    </center> <!-- End Wrapper -->
+</body>
+
+</html>
